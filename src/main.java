@@ -58,7 +58,6 @@ public class main {
                 		System.out.println(newBit);
                 		writer.write(newBit + " ");
                 	}
-            		System.out.println(x);
         		}
         	}
             writer.write("\n");
@@ -116,9 +115,6 @@ public class main {
                 		int r1 = Integer.parseInt(valores[l]);
                 		int g1 = Integer.parseInt(valores[l+1]);
                 		int b1 = Integer.parseInt(valores[l+2]);
-                		System.out.println("valor"+r1);
-                		System.out.println("valor"+g1);
-                		System.out.println("valor"+b1);
                 		newBit = (r1 + g1 + b1) / 3 ;
                 		System.out.println(newBit);
                 		writer.write(newBit + " " + newBit + " " + newBit + " ");
